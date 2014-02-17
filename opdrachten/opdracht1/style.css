@@ -1,0 +1,101 @@
+* { 
+    margin: 0px auto; 
+    padding: 0px;
+}
+
+article, aside, audio, cite, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+    display: block;
+}
+
+body {
+    background-color: silver;
+    padding: 20px;
+    font-family: helvetica; 
+}
+
+h1 {
+    color: #518098;
+    text-align:  center;  
+    display: block;
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: normal;
+    font-family: 'helvetica'
+    text-transform: uppercase;
+
+}
+
+h2 { 
+    color: #518098;
+    text-align: left;
+    font-family: helvetica;
+    padding-top: 10px; 
+    }
+h3 { 
+    color: #518098;
+    text-align: left;
+    font-family: helvetica;
+    padding-top: 8px; 
+}
+#wrapper {
+    width: 960px; 
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 5px #000; 
+}
+
+
+footer {
+
+font-family: 'Archivo Narrow', sans-serif;
+font-size: 14px; 
+color: white;
+padding-top: 5px; 
+text-align: center; 
+}
+
+/*navigatie*/
+
+nav ul li{
+    display: inline;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    } 
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    display: inline-block;
+    padding: 18px;
+    margin-left: 100px;
+}
+
+a#current {
+    color: #c89b47;
+}
+a:link, a:visited { 
+    color: orange;
+}
+
+a:hover {
+    color: #518098;
+}
+
+/*text*/
+
+article
+ {
+    text-align: left;
+    padding-top: 10px;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+/*javascript*/
